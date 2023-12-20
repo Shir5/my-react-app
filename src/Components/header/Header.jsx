@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./logo/Logo";
-import classes from "./Header.module.scss";
+import classes from "./Header.module.css";
 import SearchBar from "./searchBar/SearchBar";
 
 const Header = function (){
