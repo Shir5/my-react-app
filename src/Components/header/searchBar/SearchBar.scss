@@ -1,0 +1,23 @@
+
+@use "@picocss/pico";
+
+$primaryColor: #F2F1EB;
+$secondaryColor: #EEE7DA;
+$utilityColor: #F2F1EB;
+
+.searchBar{
+    margin: 0 0 0 1em ;
+    align-items: center;
+    --primary: $baseColor;
+}
+
+.searchBtn{
+    color: #AFC8AD;
+    --primary: #E4E4D0;
+    --primary-hover: #94A684;
+}
+.group{
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: row;
+}

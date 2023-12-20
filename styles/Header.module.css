@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 5em;
+  background-color: #88AB8E;
+  align-items: center;
+}/*# sourceMappingURL=Header.module.css.map */
