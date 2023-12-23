@@ -1,0 +1,11 @@
+@import "./src/Components/header/Header.module.scss";
+.themeButton{
+    scale: 80%;
+    @include button;
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+}
+
+
+

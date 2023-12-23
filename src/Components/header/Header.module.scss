@@ -1,10 +1,27 @@
+$primaryColor: #5F8D4E;
+$secondaryColor: #88AB8E;
+$utilityColor: #285430;
+$secondaryUtility: #E5D9B6;
+
+
+
 .header{
     display: flex;
     box-sizing: border-box;
     width: 100%;
     height: 5em;
-    background-color: #E5D9B6;
+    background-color: #{$secondaryUtility};
     align-items: center;
     justify-content: space-between;
 
+}
+
+@mixin button{
+    --pico-primary:#{$utilityColor};
+    --pico-primary-background: #{$primaryColor};
+    --pico-primary-border: #{$utilityColor};
+    --pico-primary-hover:#{$primaryColor};
+    --pico-primary-hover-border:#{$utilityColor};
+    --pico-primary-hover-background:#{$secondaryColor};
+    --pico-primary-inverse:#{$utilityColor};
 }

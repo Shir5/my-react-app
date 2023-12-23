@@ -1,15 +1,9 @@
-$primaryColor: #5F8D4E;
-$secondaryColor: #88AB8E;
-$utilityColor: #285430;
+@import "./src/Components/header/Header.module.scss";
+
+
 
 .searchBtn{
---pico-primary:#{$utilityColor};
---pico-primary-background: #{$primaryColor};
---pico-primary-border: #{$utilityColor};
---pico-primary-hover:#{$primaryColor};
---pico-primary-hover-border:#{$utilityColor};
---pico-primary-hover-background:#{$secondaryColor};
---pico-primary-inverse:#{$utilityColor};
+@include button;
 }
 
 .searchBar{
@@ -23,8 +17,14 @@ $utilityColor: #285430;
 
 .container{
     margin-top: 1%;
-    display: flex;
     --pico-form-element-placeholder-color:#{$utilityColor};
     --pico-secondary:#{$utilityColor};
+    left: 2%;
+    margin-right: 2em;
 }
+.container:active{
+    margin-right: 2em;
+}
+
+
 
