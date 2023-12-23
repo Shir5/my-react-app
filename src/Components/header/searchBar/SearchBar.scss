@@ -1,17 +1,30 @@
-
-.searchBar{
-    align-items: center;
-}
+$primaryColor: #5F8D4E;
+$secondaryColor: #88AB8E;
+$utilityColor: #285430;
 
 .searchBtn{
-    --primary: #AFC8AD;
-    --primary-hover: #EEE7DA;   
+--pico-primary:#{$utilityColor};
+--pico-primary-background: #{$primaryColor};
+--pico-primary-border: #{$utilityColor};
+--pico-primary-hover:#{$primaryColor};
+--pico-primary-hover-border:#{$utilityColor};
+--pico-primary-hover-background:#{$secondaryColor};
+--pico-primary-inverse:#{$utilityColor};
+}
+
+.searchBar{
+    --pico-background-color: #{$primaryColor};
+    --pico-primary-background:#{$utilityColor};
+    --pico-form-element-active-border-color:#{$utilityColor};
+    --pico-border-color: #{$utilityColor};
+    --pico-form-element-focus-color: #{$utilityColor};
+    color: #{$primaryColor};
 }
 
 .container{
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+    margin-top: 1%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    --pico-form-element-placeholder-color:#{$utilityColor};
+    --pico-secondary:#{$utilityColor};
 }
+
