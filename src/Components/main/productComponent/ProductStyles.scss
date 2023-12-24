@@ -1,0 +1,39 @@
+@import "./src/Components/header/Header.module.scss";
+
+
+.product-card {
+  border: 1px solid $secondaryColor;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: $secondaryUtility;
+  display: flex;
+  flex-direction: column; /* Make sure the product card is a column layout */
+
+
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .product-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: $primaryColor;
+    margin-bottom: 10px;
+  }
+
+  .product-price {
+    font-size: 14px;
+    color: $utilityColor;
+    margin-bottom: 10px;
+  }
+
+  .add-to-cart-button {
+    @include button;
+    margin-top: auto; /* Stick the button to the bottom */
+
+  }
+}
