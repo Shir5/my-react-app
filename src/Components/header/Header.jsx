@@ -3,6 +3,7 @@ import Logo from "./logo/Logo";
 import classes from "./Header.module.scss";
 import SearchBar from "./searchBar/SearchBar";
 import ThemeChanger from "./themeChanger/ThemeChanger";
+import Cart from "./cart/Cart";
 
 const Header = function (){
     return (
@@ -10,6 +11,7 @@ const Header = function (){
             <Logo />
             <SearchBar/>
             <ThemeChanger />
+            <Cart />
         </div>
     );
 }

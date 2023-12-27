@@ -2,5 +2,13 @@
 @import "./src/Components/header/Header.module.scss";
 
 .cartButton{
-    @include button;
+    background: rgba(0,0,0,0);
+    border-style: none;
+}
+
+.cartButton img{
+    transition: scale 0.2s ease-out;
+}
+.cartButton img:hover{
+    scale: 150%;
 }
