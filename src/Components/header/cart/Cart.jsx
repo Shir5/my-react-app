@@ -2,9 +2,12 @@ import React from "react";
 
 const Cart = function () {
     return ( 
-        <div>
-
-        </div>
+        <React.Fragment>
+            <button className="cartName">
+                <img src="public/Resources/shopping-cart-svgrepo-com.svg">
+                </img>
+            </button>
+        </React.Fragment>
     );
 }
 
